@@ -1,0 +1,101 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3239,         91]
+NotebookOptionsPosition[      2434,         72]
+NotebookOutlinePosition[      2832,         88]
+CellTagsIndexPosition[      2789,         85]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData["Anima\[CCedilla]\[OTilde]es"], "Input",
+ CellChangeTimes->{{3.8363271588232145`*^9, 
+  3.836327177042987*^9}},ExpressionUUID->"bf3c25de-1a85-48c0-83e3-\
+6719543fd1d3"],
+
+Cell["Funcoes: Manipulate e Animate", "Text",
+ CellChangeTimes->{{3.836327180602916*^9, 3.8363271943890395`*^9}, {
+  3.8363273019768925`*^9, 
+  3.8363273080326805`*^9}},ExpressionUUID->"85d3a8da-9512-4465-9c02-\
+eb6900c5476f"],
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"Plot", "[", 
+    RowBox[{
+     RowBox[{"Sin", "[", "x", "]"}], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", " ", "0", ",", " ", "xf"}], "}"}]}], "]"}], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"xf", ",", " ", "\[Pi]", ",", " ", 
+     RowBox[{"10", "\[Pi]"}]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.836327229296322*^9, 3.836327280392933*^9}, {
+  3.8363273530916605`*^9, 3.836327390744542*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"08401098-d384-498d-8976-70e50bad6f38"],
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   SuperscriptBox["x", "3"], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", " ", "0", ",", " ", "20"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8363274331490617`*^9, 3.8363274711907253`*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"bb4955c5-1a27-40a0-a241-3c9eb1bef59f"],
+
+Cell["\<\
+A funcao Animate \[EAcute] a mesma coisa que a Manipulate, porem ela faz um \
+video\
+\>", "Text",
+ CellChangeTimes->{{3.83632753801477*^9, 
+  3.8363275554493055`*^9}},ExpressionUUID->"2b78bcfb-7642-4dda-beaf-\
+4c7bcc2040d1"],
+
+Cell[BoxData[
+ RowBox[{"Animate", "[", 
+  RowBox[{
+   SuperscriptBox["x", "3"], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", " ", "0", ",", " ", "20"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.836327558264797*^9, 3.836327575584955*^9}},
+ CellLabel->"In[7]:=",ExpressionUUID->"bc60da6b-89ab-4e04-b192-c42a3bcc85ec"]
+},
+WindowSize->{492, 676},
+WindowMargins->{{Automatic, -12}, {Automatic, 0}},
+FrontEndVersion->"12.3 for Microsoft Windows (64-bit) (June 19, 2021)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"2804365e-ac5c-465b-80e3-e58a2b07ab24"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 181, 3, 29, "Input",ExpressionUUID->"bf3c25de-1a85-48c0-83e3-6719543fd1d3"],
+Cell[742, 25, 226, 4, 35, "Text",ExpressionUUID->"85d3a8da-9512-4465-9c02-eb6900c5476f"],
+Cell[971, 31, 555, 13, 44, "Input",ExpressionUUID->"08401098-d384-498d-8976-70e50bad6f38"],
+Cell[1529, 46, 334, 7, 47, "Input",ExpressionUUID->"bb4955c5-1a27-40a0-a241-3c9eb1bef59f"],
+Cell[1866, 55, 234, 6, 58, "Text",ExpressionUUID->"2b78bcfb-7642-4dda-beaf-4c7bcc2040d1"],
+Cell[2103, 63, 327, 7, 47, "Input",ExpressionUUID->"bc60da6b-89ab-4e04-b192-c42a3bcc85ec"]
+}
+]
+*)
+
+(* End of internal cache information *)
+

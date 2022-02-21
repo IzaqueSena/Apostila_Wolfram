@@ -1,0 +1,70 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1884,         62]
+NotebookOptionsPosition[      1351,         46]
+NotebookOutlinePosition[      1750,         62]
+CellTagsIndexPosition[      1707,         59]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData["Documenta\[CCedilla]\[ATilde]o"], "Input",
+ CellChangeTimes->{{3.836245912703888*^9, 
+  3.83624591741607*^9}},ExpressionUUID->"eb745631-fd8a-4cc7-9099-\
+c5456c7a4ade"],
+
+Cell["\<\
+
+
+
+
+Voce pode acessar ao menu de documenta\[CCedilla]\[ATilde]o indo em 
+Help > Wolfram Documentation
+
+Para visualizar a documenta\[CCedilla]\[ATilde]o de uma fun\[CCedilla]\
+\[ATilde]o, basta escrever ela, e aproximar o mouse e apertar F1.\
+\>", "Text",
+ CellChangeTimes->{{3.8362459404238605`*^9, 3.8362459804896793`*^9}, {
+  3.8362460370437417`*^9, 
+  3.836246096714983*^9}},ExpressionUUID->"1d9d38ee-6e1b-4633-9776-\
+297e8768dc1f"],
+
+Cell[BoxData["Log"], "Input",
+ CellChangeTimes->{{3.836246099194794*^9, 
+  3.8362460995788164`*^9}},ExpressionUUID->"5de5f982-1fe0-4a56-b62a-\
+f808ce7bda5c"]
+},
+WindowSize->{557, 581},
+WindowMargins->{{396, Automatic}, {24, Automatic}},
+FrontEndVersion->"12.3 for Microsoft Windows (64-bit) (June 19, 2021)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"d4cd4b70-b020-4b01-97dd-8e3482e7e139"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 181, 3, 29, "Input",ExpressionUUID->"eb745631-fd8a-4cc7-9099-c5456c7a4ade"],
+Cell[742, 25, 445, 14, 219, "Text",ExpressionUUID->"1d9d38ee-6e1b-4633-9776-297e8768dc1f"],
+Cell[1190, 41, 157, 3, 44, "Input",ExpressionUUID->"5de5f982-1fe0-4a56-b62a-f808ce7bda5c"]
+}
+]
+*)
+
